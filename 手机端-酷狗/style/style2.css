@@ -1,0 +1,474 @@
+main{
+    width: 100%;
+    position:relative;
+}
+main #a1 #s1 ul{
+    border-bottom:1px solid #ebebeb;
+}
+main #a1 #s1 ul li{
+    width: 33.33%;
+    text-align:center;
+}
+main #a1 #s1 ul li a{
+    display: block;
+    width: 100%;
+   padding:10px 0;
+    color:#000;
+    font-size:0.8rem;
+}
+main #a1 #s1 ul li:nth-of-type(1) a{
+    color:#2299ed;
+}
+main #a1 #s1 ul li a:hover{
+    border-bottom:2px solid #2299ed;
+    color:#2299ed;
+}
+main #a2{
+    position:relative;
+    width: 100%;
+}
+main #a2 #d1,main #a2 #d2,main #a2 #d3{
+    width: 100%;
+    height: 780px;
+    position:absolute;
+    left:0;
+    top:0;
+    background: #fff;
+}
+main #a2 #d1:target{
+    z-index:999;
+}
+main #a2 #d2:target{
+    z-index:999;
+}
+main #a2 #d3:target{
+    z-index:999;
+}
+
+
+main #a2 #d1 div.clear{
+    width: 90%;
+    margin:0 auto;
+
+}
+main #a2 #d1 div.clear dl{
+    width: 55%;
+    position:relative;
+    top:3px;
+}
+main #a2 #d1 div.clear dl dt{
+    font-size:1rem;
+}
+main #a2 #d1 div.clear dl dd{
+    font-size:0.6rem;
+    color:#999;
+}
+main #a2 #d1 div.clear ul{
+    width: 45%;
+}
+main #a2 #d1 div.clear ul li{
+    width: 28.3%;
+}
+main #a2 #d1 div.clear ul li:last-child{
+    width: 15%;
+}
+main #a2 #d1 div.clear ul li:last-child img{
+    position:relative;
+    top:9px;
+}
+main #a2 #d1 div.clear ul li img{
+    width:100%;
+}
+main #a2 #d1 hr{
+    border:0;
+    border:none;
+    background: #f3f3f3;
+    height: 5px;
+    margin-top:10px;
+}
+main #a2 #d1>ul.clear{
+  padding:15px 0;
+}
+main #a2 #d1>ul.clear li{
+    float:left;
+    width: 20%;
+    text-align: center;
+}
+main #a2 #d1>ul.clear li img{
+    width: 65%;
+}
+main #a2 #d1>ul.clear li dl dd{
+    color:#000;
+    font-size:0.8rem;
+}
+main #a2 #d1>ul:nth-of-type(2){
+    overflow: hidden;
+}
+main #a2 #d1>ul:nth-of-type(2) li{
+    width: 49%;
+    float:left;
+    margin-bottom:20px;
+}
+.margin{
+    margin-left:2%;
+}
+main #a2 #d1>ul:nth-of-type(2) li dl dt img{
+    width: 100%;
+}
+.fs_1{font-size:0.8rem;}
+.fs_2{font-size:0.7rem;color:#999;}
+main #a2 #d2 #s41{
+    width: 90%;
+    height: 60px;
+    margin:0 auto;
+
+}
+main #a2 #d2 #s41 ul{
+    width: 80%;
+    overflow: hidden;
+    height: 60px;
+}
+main #a2 #d2 #s41 ul li dl{
+    width: 100%;
+    height: 60px;
+}
+main #a2 #d2 #s41 ul li dl dt{
+    width: 22%;
+    margin-right:2%;
+}
+main #a2 #d2 #s41 ul li dl dt img{
+    width: 100%;
+}
+main #a2 #d2 #s41 ul li dl dd:nth-of-type(1){
+    font-size:0.8rem;
+    font-weight: bold;
+    margin-top:10px;
+}
+main #a2 #d2 #s41 ul li dl dd:nth-of-type(2){
+    font-size:0.6rem;
+  color:#999;
+}
+main #a2 #d2 #s41>div{
+    width: 20%;
+    height: 55px;
+    padding-top:15px;
+    text-align: right;
+}
+main #a2 #d2 #s41>div img{
+    width: 18px;
+}
+main #a2 #d2 hr{
+    background: #f8f8f8;
+    border:0;
+    border:none;
+    height: 5px;
+}
+main #a2 #d2>ul.clear{
+    width: 100%;
+    margin-top:10px;
+}
+main #a2 #d2>ul.clear li{
+    width: 25%;
+    float:left;
+    text-align: center;
+}
+main #a2 #d2>ul.clear li dl{
+    width: 100%;
+}
+main #a2 #d2>ul.clear li dl dt img{
+    width: 60%;
+}
+main #a2 #d2>ul.clear li dl dd{
+    color:#000;
+    font-size:0.9rem;
+}
+main #a2 #d2>ul.u2{
+    overflow: hidden;
+    width: 100%;
+    margin-top:10px;
+}
+main #a2 #d2>ul.u2 li{
+    width: 49%;
+    float:left;
+}
+main #a2 #d2>ul.u2 li dl{
+    width: 100%;
+    position:relative;
+    margin-top:10px;
+}
+main #a2 #d2>ul.u2 li dl dt img{
+    width: 100%;
+}
+main #a2 #d2>ul.u2 li dl dd:nth-of-type(2){
+    font-size:0.8rem;
+    margin-left:3%;
+}
+main #a2 #d2>ul.u2 li dl dd:nth-of-type(3) img{
+    width: 15px;
+    position:relative;
+    top:3px;
+}
+main #a2 #d2>ul.u2 li dl dd:nth-of-type(3){
+    margin-left:3%;
+}
+main #a2 #d2>ul.u2 li dl dd:nth-of-type(3) span{
+    color:#999;
+    font-size:0.6rem;
+    position:relative;
+    top:-3px;
+    margin-right:2%;
+}
+main #a2 #d2>ul.u2 li dl:hover .mb{
+    display:block;
+}
+main #a2 #d2>ul.u2 dl .mb{
+    position:absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 207px;
+    background:url("../images/index2/d2_9.png") no-repeat center center rgba(0,0,0,0.4);
+    -webkit-background-size: 30%;
+    background-size: 30%;
+    display:none;
+    text-align: center;
+    color:#fff;
+    padding-top:130px;
+}
+main #a2 #d3 section.clear{
+    width: 100%;
+    padding:0 5%;
+    margin-top:10px;
+}
+main #a2 #d3 section.clear ul.fr{
+    overflow: hidden;
+    width: 38%;
+    position:relative;
+    top:3px;
+}
+main #a2 #d3 section.clear ul.fr li{
+    float:left;
+}
+main #a2 #d3 section.clear ul.fl li{
+    color:#1F89D4;
+    font-size:0.8rem;
+    border:1px solid #1F89D4;
+    padding:3px 15px;
+    border-radius:5px;
+}
+main #a2 #d3 section.clear ul.fr li a{
+    color:#000;
+    font-size:0.8rem;
+}
+main #a2 #d3 section.clear ul.fl li img{
+    width: 15px;
+    position:relative;
+    top:2px;
+    left:8px;
+}
+main #a2 #d3 section:nth-of-type(2) ul{
+    width: 100%;
+    overflow: hidden;
+    margin-top:10px;
+}
+main #a2 #d3 section:nth-of-type(2) ul li{
+    width: 49%;
+    height: 170px;
+    float:left;
+}
+main #a2 #d3 section:nth-of-type(2) ul li dl dt img{
+    width: 100%;
+}
+main #a2 #d3 section:nth-of-type(2) ul li dl span img{
+    width: 15px;
+}
+main #a2 #d3 section:nth-of-type(2) ul li dl span.fr img{
+    position:relative;
+    top:2px;
+}
+main #a2 #d3 section:nth-of-type(2) ul li dl dd{
+    font-size:0.8rem;
+    margin-bottom:5px;
+}
+main #a2 #d3 section:nth-of-type(2) ul li dl span{
+    color:#999;
+    font-size:0.7rem;
+}
+.border{
+    border-right:1px solid #ccc;
+    padding-right:4%;
+    margin-right:4%;
+}
+@media (min-width: 375px){
+    main #a1 #s1 ul li a{
+        padding:12px 0;
+        font-size:0.7rem;
+    }
+    main #a2 #d1,main #a2 #d2,main #a2 #d3{
+        height: 870px;
+    }
+    main #a2 #d1 .clear dl{
+        position:relative;
+        top:5px;
+    }
+    main #a2 #d1 .clear dl dd{
+        font-size:0.8rem;
+        color:#999;
+    }
+    main #a2 #d1 .clear ul li:last-child img{
+        top:12px;
+    }
+    main #a2 #d2 #s41 ul li dl dd:nth-of-type(1){
+        font-size:0.9rem;
+        margin-top:13px;
+    }
+    main #a2 #d2 #s41 ul li dl dd:nth-of-type(2){
+        font-size:0.7rem;
+    }
+    main #a2 #d2 hr{
+        margin-top:8px;
+    }
+    main #a2 #d2>ul.u2 dl .mb{
+        height: 242px;
+        padding-top:150px;
+    }
+    main #a2 #d3 section.clear ul.fr{
+        width: 33%;
+    }
+
+}
+@media (min-width: 414px){
+    main #a1 #s1 ul li a{
+        padding:15px 0;
+        font-size:1rem;
+    }
+    .fs_1{font-size:0.9rem;}
+    .fs_2{font-size:0.8rem;}
+    main #a2 #d1,main #a2 #d2,main #a2 #d3{
+        height: 960px;
+        background: #fff;
+    }
+    main #a2 #d1 .clear dl{
+        position:relative;
+        top:6px;
+    }
+    main #a2 #d1 .clear dl dt{
+        font-size:1.1rem;
+    }
+    main #a2 #d1 .clear dl dd{
+        font-size:0.9rem;
+        color:#999;
+    }
+    main #a2 #d2 #s41 ul li dl dt{
+        width: 20%;
+        margin-right:4%;
+    }
+    main #a2 #d2 #s41 ul li dl dd:nth-of-type(1){
+        font-size:1rem;
+    }
+    main #a2 #d2 #s41 ul li dl dd:nth-of-type(2){
+        font-size:0.9rem;
+    }
+    main #a2 #d2>ul.u2 dl .mb{
+        height: 268px;
+        padding-top:170px;
+    }
+    main #a2 #d2>ul.u2 li dl dd:nth-of-type(2){
+        font-size:1rem;
+    }
+    main #a2 #d2>ul.u2 li dl dd:nth-of-type(3){
+        font-size:0.9rem;
+    }
+    main #a2 #d3 section.clear ul.fl li{
+        font-size:1rem;
+    }
+    main #a2 #d3 section.clear ul.fr li a{
+        font-size:1rem;
+    }
+    main #a2 #d3 section.clear ul li a{
+        font-size:0.9rem;
+    }
+    main #a2 #d3 section.clear ul.fr{
+        width: 33%;
+    }
+    main #a2 #d3 section:nth-of-type(2) ul li{
+        height: 200px;
+    }
+    main #a2 #d3 section:nth-of-type(2) ul li dl dd{
+        font-size:0.9rem;
+        margin-bottom:5px;
+    }
+    main #a2 #d3 section:nth-of-type(2) ul li dl span{
+        font-size:0.8rem;
+    }
+}
+@media (min-height: 812px){
+    main #a1 #s1 ul li a{
+        padding:16px 0;
+        font-size:1.1rem;
+    }
+    .fs_1{font-size:1rem;}
+    .fs_2{font-size:0.9rem;}
+    main #a2 #d1,main #a2 #d2,main #a2 #d3{
+        height: 900px;
+    }
+    main #a2 #d1 .clear dl{
+        position:relative;
+        top:2px;
+    }
+    main #a2 #d1 .clear dl dt{
+        font-size:1.1rem;
+    }
+    main #a2 #d1 .clear dl dd{
+        font-size:0.9rem;
+        color:#999;
+    }
+    main #a2{
+        height: 670px;
+    }
+    main #a2 #d2 #s41{
+        height: 65px;
+    }
+    main #a2 #d2 #s41 ul li dl dt{
+        width: 23%;
+        margin-right:4%;
+    }
+    main #a2 #d2 #s41 ul li dl dd:nth-of-type(1){
+        font-size:1.1rem;
+    }
+    main #a2 #d2 #s41 ul li dl dd:nth-of-type(2){
+        font-size:0.9rem;
+    }
+    main #a2 #d2>ul.clear{
+        margin-top:13px;
+    }
+    main #a2 #d2>ul.u2 dl .mb{
+        height: 243px;
+        padding-top:155px;
+    }
+    main #a2 #d2>ul.u2 li dl dd:nth-of-type(2){
+        font-size:1.1rem;
+    }
+    main #a2 #d2>ul.u2 li dl dd:nth-of-type(3){
+        font-size:1rem;
+    }
+    main #a2 #d3 section.clear ul.fr li a{
+        font-size:1.1rem;
+    }
+    main #a2 #d3 section.clear ul.fl li{
+        font-size:1.1rem;
+    }
+    main #a2 #d3 section.clear ul.fr{
+        width: 40%;
+    }
+    main #a2 #d3 section:nth-of-type(2) ul li{
+        height: 200px;
+    }
+    main #a2 #d3 section:nth-of-type(2) ul li dl dd{
+        font-size:1rem;
+        margin-bottom:5px;
+    }
+    main #a2 #d3 section:nth-of-type(2) ul li dl span{
+        font-size:0.9rem;
+    }
+}

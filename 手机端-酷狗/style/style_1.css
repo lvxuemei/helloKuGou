@@ -1,0 +1,473 @@
+header{
+    background: #0090FF;
+    height: 50px;
+    width: 100%;
+    padding:15px 3% 0 1%;
+}
+a{
+    color:#000;
+}
+header div img{
+    width: 30px;
+}
+header div.fl a{
+    position:relative;
+    top:-12px;
+    color:#fff;
+}
+header div.fr img:nth-of-type(2){
+    position:relative;
+    top:-8px;
+}
+main #a1 #s1{
+    width: 100%;
+    height: 52px;
+    padding:0 3%;
+    border-bottom:1px solid #F6F6F6;
+}
+main #a1 #s1 ul{
+    width: 80%;
+}
+main #a1 #s1 ul li{
+    float:left;
+    width: 25%;
+    height: 50px;
+   
+}
+main  #a1 #s1 ul li a{
+    color:#000;
+    display:block;
+    width: 100%;
+    height: 50px;
+    line-height:50px;
+    font-size:0.8rem;
+    text-align: center;
+}
+
+
+main  #a1 #s1 ul li.on{
+    border-bottom:2px solid #2194E5;
+}
+main  #a1 #s1 ul li.on a{
+    color:#2194E5;
+}
+main  #a1 #s1 div{
+    width: 12%;
+    height: 30px;
+    text-align: right;
+   margin-top:10px;
+    border-left:1px solid #F6F6F6;
+}
+main  #a1 #s1 div img{
+    width: 20px;
+}
+main  #a1 #s2{
+    height: 50px;
+    padding:10px 0;
+    border-bottom:1px solid #F6F6F6;
+}
+main  #a1 #s2 ul{
+    height: 30px;
+    line-height: 30px;
+}
+main  #a1 #s2 ul.fl{
+    width: 58%;
+}
+main  #a1 #s2 ul.fl li:first-child{
+    border-right:1px solid #F6F6F6;
+}
+main  #a1 #s2 ul.fr{
+    width: 42%;
+}
+main  #a1 #s2 ul.fr li:nth-of-type(1),main article #s2 ul.fr li:nth-of-type(2){
+    border-right:1px solid #F6F6F6;
+}
+main  #a1 #s2 ul li{
+    float:left;
+    padding:0 5%;
+    text-align: center;
+    font-size:0.8rem;
+}
+main  #a1 #s2 ul li img{
+    width: 25px;
+    position:relative;top:5px;
+}
+main  #a2{
+    width: 100%;
+    height: 405px;
+    position:relative;
+}
+main  #a2 section{
+    width: 100%;
+    padding:0 3%;
+    height: 403px;
+    position:absolute;
+    top:0;
+    left:0;
+    background: #fff;
+}
+main  #a2 section:target{
+    z-index:9999;
+}
+main  #a2 #a2s1 ul li dl{
+    padding-top:5px;
+    height: 50px;
+    width: 80%;
+    border-bottom:1px solid #F6F6F6;
+}
+main  #a2 #a2s1 ul li dl dt{
+    font-size:0.9rem;
+}
+main  #a2 #a2s1 ul li dl dd{
+    color:#999;
+    font-size:0.8rem;
+
+}
+main  #a2 #a2s1 ul li{
+    overflow: hidden;
+    height: 50px;
+}
+main  #a2 #a2s1 ul li div{
+    height: 50px;
+    line-height: 50px;
+    width: 10%;
+}
+main  #a2 #a2s1 ul li div:nth-of-type(1){
+    padding-top:5px;
+
+}
+main  #a2 #a2s1 ul li div img{
+    width: 25px;
+}
+main  #a2 #a2s2>div,main  #a2 #a2s3>div{
+    padding:10px 0;
+    border-bottom:1px solid #F6F6F6;
+}
+main  #a2 #a2s2>div input,main  #a2 #a2s3>div input{
+    width: 85%;
+    height: 30px;
+    float:left;
+    border:none;
+    border:0;
+    border-radius:4px;
+    background: #F3F3F3;
+    padding-left:5%;
+}
+main  #a2 #a2s2>div input::-webkit-input-placeholder,main  #a2 #a2s3>div input::-webkit-input-placeholder{
+    text-align: center;
+}
+main  #a2 #a2s2>div img,main  #a2 #a2s3>div img{
+    width: 30px;
+    float:right
+}
+main  #a2 #a2s2 ul li{
+    width: 100%;
+    overflow:hidden;
+    padding:5px 0;
+}
+main  #a2 #a2s2 ul li div{
+    float:left;
+    width: 15%;
+}
+main  #a2 #a2s2 ul li div img{
+    width: 100%;
+}
+main  #a2 #a2s2 ul li dl{
+    float:right;
+    width: 80%;
+    height: 52px;
+   margin-left:5%;
+    padding-top:6px;
+    border-bottom:1px solid #F6F6F6;
+}
+main  #a2 #a2s2 ul li dl dt{
+    font-size:0.9rem;
+}
+main  #a2 #a2s2 ul li dl dd{
+    color:#999;
+    font-size:0.8rem
+}
+main  #a2 #a2s3 ul li{
+    overflow: hidden;
+    height: 70px;
+    padding:5px 0;
+}
+main  #a2 #a2s3 ul li div{
+    width: 25%;
+    float:left;
+
+}
+main  #a2 #a2s3 ul li div img{
+    width: 100%;
+}
+main  #a2 #a2s3 ul li dl{
+    float:right;
+    width: 72%;
+    height: 60px;
+    margin-left:3%;
+    padding-top:10px;
+    border-bottom:1px solid #F6F6F6;
+}
+main  #a2 #a2s3 ul li dl dt{
+    font-size:0.9rem
+}
+main  #a2 #a2s3 ul li dl dd{
+    font-size:0.8rem;
+    color:#999;
+}
+main  #a2 #a2s4{
+    padding-top:10px;
+}
+main  #a2 #a2s4 dl{
+    width: 85%;
+    border-bottom:1px solid #F6F6F6;
+}
+main  #a2 #a2s4 dl dt{
+    width: 13%;
+    margin-right:3%;
+}
+main  #a2 #a2s4 dl dd:nth-of-type(1){
+    font-size:0.8rem;
+}
+main  #a2 #a2s4 dl dd:nth-of-type(2){
+    font-size:0.6rem;
+    color:#999;
+}
+main  #a2 #a2s4 dl dt img{
+    width: 100%;
+}
+main  #a2 #a2s4 div.fr{
+    width: 15%;
+    color:#999;
+    font-size:0.8rem;
+    text-align: right;
+}
+main  #a2 #a2s4 div:nth-of-type(2){
+    width: 100%;
+    text-align: center;
+    color:#999;
+    margin-top:10px;
+    font-size:0.8rem;
+}
+@media (min-width:375px){
+    main  #a2{
+        height: 502px;
+    }
+    main  #a2 section{
+        height: 500px;
+    }
+    main  #a1 #s2 ul.fl{
+        width: 64%;
+    }
+    main  #a1 #s2 ul.fr{
+        width: 36%;
+    }
+    main  #a2 #a2s3 ul li{
+        height: 76px;
+    }
+    main  #a2 #a2s3 ul li dl{
+        height: 66px;
+    }
+    main  #a2 #a2s3 ul li dl{
+        height: 66px;
+    }
+
+}
+@media (min-width:414px){
+    main  #a2{
+        height: 552px;
+    }
+    main  #a2 section{
+        height: 550px;
+    }
+    header div.fl a{
+      font-size:1.1rem;
+    }
+    main  #a1 #s1 ul li{
+        font-size:0.9rem;
+    }
+    main  #a1 #s2 ul.fl{
+        width: 67%;
+    }
+    main  #a1 #s2 ul.fr{
+        width: 33%;
+    }
+    main  #a1 #s2 ul li{
+        font-size:0.9rem;
+    }
+    main  #a2 #a2s1 ul li{
+        height: 55px;
+    }
+    main  #a2 #a2s1 ul li dl{
+        height:55px;
+    }
+    main  #a2 #a2s1 ul li div{
+        height: 55px;
+        line-height: 55px;
+    }
+    main  #a2 #a2s1 ul li dl dt{
+        font-size:1rem;
+    }
+    main  #a2 #a2s1 ul li dl dd{
+        font-size:0.9rem;
+    }
+    main  #a2 #a2s2>div{
+        padding:15px 0;
+    }
+    main  #a2 #a2s2>div input{
+        height: 35px;
+    }
+    main  #a2 #a2s2>div input::-webkit-input-placeholder{
+        font-size:1rem;
+    }
+    main  #a2 #a2s2>div img{
+        width: 35px;
+    }
+    main  #a2 #a2s3>div{
+        padding:15px 0;
+    }
+    main  #a2 #a2s3>div input{
+        height: 35px;
+    }
+    main  #a2 #a2s3>div input::-webkit-input-placeholder{
+        font-size:1rem;
+    }
+    main  #a2 #a2s3>div img{
+        width: 35px;
+    }
+
+    main  #a2 #a2s2 ul li dl dt{
+        font-size:1rem;
+    }
+    main  #a2 #a2s2 ul li dl dd{
+        font-size:0.9rem
+    }
+    main  #a2 #a2s2 ul li dl{
+        height: 60px;
+    }
+    main  #a2 #a2s3 ul li{
+        height: 82px;
+    }
+    main  #a2 #a2s3 ul li dl{
+        height: 72px;
+    }
+    main  #a2 #a2s3 ul li dl{
+        height: 72px;
+    }
+    main  #a2 #a2s3 ul li dl dt{
+        font-size:1.1rem
+    }
+    main  #a2 #a2s3 ul li dl dd{
+        font-size:1rem;
+        color:#999;
+    }
+    main  #a2 #a2s4 dl dd:nth-of-type(1){
+        font-size:0.9rem;
+    }
+    main  #a2 #a2s4 dl dd:nth-of-type(2){
+        font-size:0.7rem;
+        color:#999;
+    }
+    main  #a2 #a2s4 div.fr{
+        font-size:0.9rem;
+    }
+    main  #a2 #a2s4 div:nth-of-type(2){
+        font-size:0.9rem;
+    }
+}
+@media (min-height:812px){
+    main  #a2{
+        height: 602px;
+    }
+    main  #a2 section{
+        height: 600px;
+    }
+    header div.fl a{
+        font-size:1.2rem;
+    }
+    main  #a1 #s1 ul li{
+        font-size:1rem;
+    }
+    main  #a1 #s2 ul li{
+        font-size:1rem;
+    }
+    main  #a2 #a2s1 ul li{
+        height: 60px;
+    }
+    main  #a2 #a2s1 ul li dl{
+        height:60px;
+    }
+    main  #a2 #a2s1 ul li div{
+        height: 60px;
+        line-height: 60px;
+    }
+    main  #a2 #a2s1 ul li dl dt{
+        font-size:1.1rem;
+    }
+    main  #a2 #a2s1 ul li dl dd{
+        font-size:1rem;
+    }
+    main  #a2 #a2s2>div{
+        padding:17px 0;
+    }
+    main  #a2 #a2s2>div input{
+        height: 35px;
+    }
+    main  #a2 #a2s2>div input::-webkit-input-placeholder{
+        font-size:1rem;
+    }
+    main  #a2 #a2s2>div img{
+        width: 35px;
+    }
+    main  #a2 #a2s2 ul li dl dt{
+        font-size:1.1rem;
+    }
+    main  #a2 #a2s2 ul li dl dd{
+        color:#999;
+        font-size:1rem
+    }
+    main  #a2 #a2s3>div{
+        padding:15px 0;
+    }
+    main  #a2 #a2s3>div input{
+        height: 35px;
+    }
+    main  #a2 #a2s3>div input::-webkit-input-placeholder{
+        font-size:1rem;
+    }
+    main  #a2 #a2s3>div img{
+        width: 35px;
+    }
+
+    main  #a2 #a2s2 ul li dl{
+        height: 64px;
+    }
+    main  #a2 #a2s3 ul li{
+        height: 86px;
+    }
+    main  #a2 #a2s3 ul li dl{
+        height: 76px;
+    }
+    main  #a2 #a2s3 ul li dl{
+        height: 76px;
+    }
+    main  #a2 #a2s3 ul li dl dt{
+        font-size:1.2rem
+    }
+    main  #a2 #a2s3 ul li dl dd{
+        font-size:1.1rem;
+    }
+    main  #a2 #a2s4 dl dd:nth-of-type(1){
+        font-size:1rem;
+    }
+    main  #a2 #a2s4 dl dd:nth-of-type(2){
+        font-size:0.8rem;
+        color:#999;
+    }
+    main  #a2 #a2s4 div.fr{
+        font-size:1rem;
+    }
+    main  #a2 #a2s4 div:nth-of-type(2){
+        font-size:1rem;
+    }
+}

@@ -1,0 +1,217 @@
+
+main{
+    width: 100%;
+}
+main #a1{
+    width: 100%;
+}
+main #a1 #s1{
+    width: 90%;
+margin:0 auto;
+    border-bottom:2px solid #f8f8f8;
+    padding:4px 0;
+}
+main #a1 #s1>div>img{
+    width:50px;
+    height:50px;
+    border-radius:50%;
+}
+main #a1 #s1>dl dt{
+    font-weight: bold;
+text-align: center;
+    margin-bottom:8px;
+}
+main #a1 #s1>dl dt>img{
+    width: 20px;
+}
+main #a1 #s1>dl{
+    width: 45%;
+    margin:5px 0 0 4%;
+}
+main #a1 #s1>dl dd{
+    font-size:0.7rem;
+    color:#999;
+}
+main #a1 #s1>dl dd span{
+    color:darkorange;
+    border:1px solid darkorange;
+    border-radius:5px;
+    font-size:0.5rem;
+    padding:0 5px;
+    margin-right:3%;
+}
+main #a1 #s1 .fr{
+    margin-right:5%;
+    position:relative;
+    top:10px;
+}
+main #a1 #s1 .fr a:first-child{
+    border-right:1px solid #999;
+}
+main #a1 #s1 .fr a img{
+    width: 30px;
+position:relative;
+    top:5px;
+}
+main #a1 #s2{
+    width: 90%;
+    margin:0 auto;
+    padding-top:15px;
+}
+main #a1 #s2 ul li{
+  float:left;
+    width: 25%;
+    text-align: center;
+}
+main #a1 #s2 ul li dl dt img{
+    height: 35px;
+}
+.s2_1{
+    color:#000;
+    font-size:0.9rem;
+}
+.s2_2{
+    color:#999;
+    font-size:0.6rem;
+}
+hr{
+    margin-top:10px;
+    height: 8px;
+    background: #F3F3F3;
+    border:none;
+    border:0;
+}
+main #a1 #s3{
+    width: 100%;
+}
+main #a1 #s3 ul{
+    padding-bottom:10px;
+}
+main #a1 #s3 ul li{
+    float:left;
+margin-top:10px;
+    width: 33.3%;
+    text-align: center;
+
+}
+
+main #a1 #s3 ul li dl dt img{
+    width: 50px;
+}
+main #a1 #s4{
+    width: 90%;
+    margin:0 auto;
+    padding:8px 0;
+    border-top:1px solid #F5F5F5;
+    border-bottom:1px solid #F5F5F5;
+}
+main #a1 #s4 #s41{overflow: hidden;
+    height: 30px;}
+main #a1 #s4 #s41>div{float:left;font-size:0.8rem;}
+main #a1 #s4 #s41>ul{float:right;}
+main #a1 #s4 #s41>ul li{
+    line-height: 30px;
+    text-align: right;
+}
+main #a1 #s4 #s41>ul li a{
+    color:#999;
+    font-size:0.7rem;
+}
+main #a1 #s4 #s41>div img{
+    width: 25px;
+    position:relative;
+    top:5px;
+}
+main #a2,main #a3{
+    display:none;
+}
+
+footer{
+    position:fixed;
+    bottom:0;
+    left:0;
+}
+footer audio{
+    background: #fff;
+    border:1px solid;
+    border-radius:0;
+
+}
+@media (min-width:375px){
+    main #a1 #s4{
+        margin:15px auto;
+        padding:10px 0;
+    }
+}
+@media (min-width:414px){
+
+    main #a1 #s1 .fr{
+        position:relative;
+        top:14px;
+    }
+    main #a1 #s1{
+        padding:15px 0;
+    }
+    main #a1 #s3 ul li dl dt img{
+        width: 55px;
+    }
+    main #a1 #s3 ul li{
+        margin-top:18px;
+    }
+    main #a1 #s3 ul{
+        padding-bottom:18px;
+    }
+    main #a1 #s1>div>img{
+        width:60px;
+        height:60px;
+    }
+    main #a1 #s4{
+        padding:13px 0;
+    }
+    main #a1 #s4 #s41>div{
+        font-size:1rem;
+    }
+    main #a1 #s4 #s41>ul li a{
+        font-size:0.9rem;
+    }
+}
+
+@media (min-height:812px){
+
+    main #a1 #s1 .fr{
+        position:relative;
+        top:18px;
+    }
+    main #a1 #s1{
+        padding:20px 0;
+    }
+    main #a1 #s2{
+        padding-top:20px;
+    }
+    hr{
+        margin-top:15px;
+    }
+    main #a1 #s3 ul li dl dt img{
+        width: 58px;
+    }
+    main #a1 #s3 ul li{
+        margin-top:22px;
+    }
+    main #a1 #s3 ul{
+        padding-bottom:22px;
+    }
+    main #a1 #s1>div>img{
+        width:60px;
+        height:60px;
+
+    }
+    main #a1 #s4{
+        padding:15px 0;
+    }
+    main #a1 #s4 #s41>div{
+        font-size:1.1rem;
+    }
+    main #a1 #s4 #s41>ul li a{
+        font-size:0.9rem;
+    }}
+

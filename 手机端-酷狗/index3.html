@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+    <title>hello酷狗！</title>
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="js/lrtk.js"></script>
+    <script src="js/jquery.mmenu.min.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            $('nav#menu').mmenu();
+        });
+        function AutoScroll(obj) {
+            $(obj).find("ul:first").animate({
+                        marginTop: "-30px"
+                    },
+                    500,
+                    function() {
+                        $(this).css({
+                            marginTop: "0px"
+                        }).find("li:first").appendTo(this);
+                    });
+        }
+        $(document).ready(function() {
+            setInterval('AutoScroll("#s41")', 2500)
+        });
+        $(function() {
+            $('#audio').css("background","#fff");
+        });
+    </script>
+    <link href="css/style_n.css" rel="stylesheet" type="text/css">
+    <link href="css/mmenu.css" rel="stylesheet" type="text/css">
+    <link href="css/font-face.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="style/style3.css"/>
+    <link rel="stylesheet" href="style/reset.css"/>
+
+</head>
+<body>
+
+<div id="page">
+    <!--头部 start-->
+    <header>
+        <!--   <div class="l_tbn"><a href="#menu" ></a></div>-->
+        <ul>
+            <li><a href="#menu"><img src="images/index1/header_1.jpg" alt=""/></a></li>
+            <li><a href="index1.html">听</a></li>
+            <li><a href="index2.html">看</a></li>
+            <li><a href="#">唱</a></li>
+            <li><a href="#"><img src="images/index1/header_2.jpg" alt=""/></a></li>
+        </ul>
+
+    </header>
+
+    <!--头部 end-->
+
+    <!--正文 start-->
+    <main>
+        <article id="a1">
+            <section>
+                <ul class="clear">
+                    <li>
+                        <dl>
+                            <dt><img src="images/index3/d3_1.jpg" alt=""/></dt>
+                            <dd>发现</dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt><img src="images/index3/d3_3.jpg" alt=""/></dt>
+                            <dd>我要唱</dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt><img src="images/index3/d3_2.jpg" alt=""/></dt>
+                            <dd>我的</dd>
+                        </dl>
+                    </li>
+                </ul>
+            </section>
+            <section class="clear">
+                <dl class="clear fl">
+                    <dt class="fl"><img src="images/index3/d3_4.jpg" alt=""/></dt>
+                    <dd class="fr">装了这个APP，不用再去KTV <img src="images/index2/d1_4.jpg" alt=""/></dd>
+                </dl>
+                <div class="fr"><img src="images/index1/header_5.jpg" alt=""/></div>
+            </section>
+        </article>
+        <hr/>
+        <article id="a2">
+            <ul class="clear">
+                <li><a href="#s1">关注</a></li>
+                <li><a href="#s2">好友</a></li>
+                <li><a href="#s3">热门</a></li>
+                <li><a href="#s4">附近</a></li>
+            </ul>
+        </article>
+        <article id="a3">
+            <section id="s4">
+                <div class="clear">
+                    <dl class="fl">
+                        <dt>离你最近的地盘</dt>
+                        <dd>
+                            <img src="images/index3/s4_1.jpg" alt=""/>
+                            <span>3.87千米</span>
+                        </dd>
+                    </dl>
+                    <div class="fr">
+                    <img src="images/index2/d1_4.jpg" alt="" />
+                    </div>
+                </div>
+                <hr/>
+                <div class="d1">
+                    <div class="d1_1 clear">
+                        <dl class="clear fl">
+                            <dt class="fl"><img src="images/index3/s2_2.jpg" alt=""/></dt>
+                            <dd class="fr">企宣</dd>
+                        </dl>
+                        <div class="fr"><span>190米</span><img src="images/index3/d3_5.jpg" alt=""/></div>
+                    </div>
+                    <p>我唱了《讲真的》，快来点评一下吧。</p>
+                    <div class="d1_2">
+                        <dl class="clear">
+                            <dt class="fl"><img src="images/index3/s4_4.jpg" alt=""/></dt>
+                            <dd>讲真的<img src="images/index3/d3_7.jpg" alt=""/></dd>
+                            <dd>9人听过</dd>
+                        </dl>
+                        <ul class="clear">
+                            <li><img src="images/index3/d3_9.jpg" alt=""/></li>
+                            <li><img src="images/index3/d3_10.jpg" alt=""/></li>
+                            <li><img src="images/index3/d3_11.jpg" alt=""/></li>
+                            <li><img src="images/index3/d3_12.jpg" alt=""/></li>
+                        </ul>
+                    </div>
+                </div>
+                <hr/>
+                <div id="fjdr">
+                    <p class="clear"><span class="fl">附近的人</span>
+                <span class="fr">更多 <img src="images/index2/d1_4.jpg" alt=""/></span>
+                </p>
+                    <ul>
+                        <li>
+                            <dl>
+                                <dt><img src="images/index3/s4_5.jpg" alt=""/></dt>
+                                <dd>关立897</dd>
+                                <dd><img src="images/index3/yinyue.jpg" alt=""/>
+                                移情别恋 <img src="images/index3/s4_3.jpg" alt=""/>
+                                </dd>
+                            </dl>
+                            <span>90米</span></li>
+                        <li>
+                            <dl>
+                                <dt><img src="images/index3/s4_6.jpg" alt=""/></dt>
+                                <dd>MR少东</dd>
+                                <dd>
+                                    <img src="images/index3/yinyue.jpg" alt=""/>
+                                    寻
+                                    <img src="images/index3/s4_3.jpg" alt=""/>
+                                </dd>
+                            </dl>
+                            <span>100米</span></li>
+                        <li>
+                            <dl>
+                                <dt><img src="images/index3/s4_2.jpg" alt=""/></dt>
+                                <dd>张浩楠33556</dd>
+                                <dd>
+                                    <img src="images/index3/yinyue.jpg" alt=""/>
+                                    成都
+                                    <img src="images/index3/s4_3.jpg" alt=""/></dd>
+                            </dl>
+                            <span>120米</span></li>
+                        <li>
+                            <dl>
+                                <dt><img src="images/index3/s4_2.jpg" alt=""/></dt>
+                                <dd>溜溜</dd>
+                                <dd>
+                                    <img src="images/index3/yinyue.jpg" alt=""/>
+                                    错的人
+                                    <img src="images/index3/s4_3.jpg" alt=""/>
+                                </dd>
+                            </dl>
+                            <span>150米</span></li>
+                    </ul>           
+
+                </div>
+            </section>
+            <section id="s3">
+                <div class="d1">
+                    <div class="d1_1 clear">
+                        <dl class="clear fl">
+                            <dt class="fl"><img src="images/index3/s2_1.jpg" alt=""/></dt>
+                            <dd class="fr">狸狸lili</dd>
+                        </dl>
+                        <div class="fr"><span></span><img src="images/index3/d3_5.jpg" alt=""/></div>
+                    </div>
+                    <p>我唱了一首《再见》，求点赞礼物~</p>
+                    <div class="d1_2">
+                        <dl class="clear">
+                            <dt class="fl"><img src="images/index3/s2_3.jpg" alt=""/></dt>
+                            <dd>再见 <img src="images/index3/d3_7.jpg" alt=""/></dd>
+                            <dd>536人听过</dd>
+                        </dl>
+
+                        <ul class="clear">
+                            <li><img src="images/index3/d3_9.jpg" alt=""/>492</li>
+                            <li><img src="images/index3/d3_10.jpg" alt=""/>223</li>
+                            <li><img src="images/index3/d3_11.jpg" alt=""/>33</li>
+                            <li><img src="images/index3/d3_12.jpg" alt=""/>5</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="d1">
+                    <div class="d1_1 clear">
+                        <dl class="clear fl">
+                            <dt class="fl"><img src="images/index3/s2_2.jpg" alt=""/></dt>
+                            <dd class="fr">怡87023</dd>
+                        </dl>
+                        <div class="fr"><span></span><img src="images/index3/d3_5.jpg" alt=""/></div>
+                    </div>
+                    <p>这是我唱的《一个人》，快来听听吧。</p>
+                    <div class="d1_2">
+                        <dl class="clear">
+                            <dt class="fl"><img src="images/index3/s2_4.jpg" alt=""/></dt>
+                            <dd>一个人 <img src="images/index3/d3_7.jpg" alt=""/></dd>
+                            <dd>6人听过</dd>
+                        </dl>
+                        <ul class="clear">
+                            <li><img src="images/index3/d3_9.jpg" alt=""/>20</li>
+                            <li><img src="images/index3/d3_10.jpg" alt=""/>1</li>
+                            <li><img src="images/index3/d3_11.jpg" alt=""/>1</li>
+                            <li><img src="images/index3/d3_12.jpg" alt=""/>1</li>
+                        </ul>
+                    </div>
+                </div>
+                <dl class="dl">
+                    <dt>酷狗唱唱</dt>
+                    <dd><img src="images/index3/d3_14.jpg" alt=""/></dd>
+                    <dd class="clear"><span class="fl">立即体验3D立体k歌音效</span>
+                        <span class="fr">立即体验</span></dd>
+                </dl>
+            </section>
+            <section id="s2">
+                <p><img src="images/index3/d3_13.jpg" alt=""/></p>
+                <div class="d1">
+                    <div class="d1_1 clear">
+                        <dl class="clear fl">
+                            <dt class="fl"><img src="images/index1/psb.jpg" alt=""/></dt>
+                            <dd class="fr">随风荡#</dd>
+                        </dl>
+                        <div class="fr"><span>2月7日</span><img src="images/index3/d3_5.jpg" alt=""/></div>
+                    </div>
+                    <p>我唱了《宁夏》，快来点评一下吧。</p>
+                    <div class="d1_2">
+                        <dl class="clear">
+                            <dt class="fl"><img src="images/index3/d3_6.jpg" alt=""/></dt>
+                            <dd>宁夏 <img src="images/index3/d3_7.jpg" alt=""/></dd>
+                            <dd>536人听过</dd>
+                        </dl>
+                        <p><img src="images/index3/d3_8.jpg" alt=""/></p>
+                        <ul class="clear">
+                            <li><img src="images/index3/d3_9.jpg" alt=""/></li>
+                            <li><img src="images/index3/d3_10.jpg" alt=""/></li>
+                            <li><img src="images/index3/d3_11.jpg" alt=""/></li>
+                            <li><img src="images/index3/d3_12.jpg" alt=""/></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="d1">
+                    <div class="d1_1 clear">
+                        <dl class="clear fl">
+                            <dt class="fl"><img src="images/index1/psb.jpg" alt=""/></dt>
+                            <dd class="fr">随风荡#</dd>
+                        </dl>
+                        <div class="fr"><span>2月1日</span><img src="images/index3/d3_5.jpg" alt=""/></div>
+                    </div>
+                    <p>我唱了《再见》，快来点评一下吧。</p>
+                    <div class="d1_2">
+                        <dl class="clear">
+                            <dt class="fl"><img src="images/index3/s2_3.jpg" alt=""/></dt>
+                            <dd>再见 <img src="images/index3/d3_7.jpg" alt=""/></dd>
+                            <dd>586人听过</dd>
+                        </dl>
+                        <p><img src="images/index3/d3_8.jpg" alt=""/></p>
+                        <ul class="clear">
+                            <li><img src="images/index3/d3_9.jpg" alt=""/></li>
+                            <li><img src="images/index3/d3_10.jpg" alt=""/></li>
+                            <li><img src="images/index3/d3_11.jpg" alt=""/></li>
+                            <li><img src="images/index3/d3_12.jpg" alt=""/></li>
+                        </ul>
+                    </div>
+                </div>
+                <dl class="dl">
+                    <dt>酷狗唱唱</dt>
+                    <dd><img src="images/index3/d3_14.jpg" alt=""/></dd>
+                    <dd class="clear"><span class="fl">立即体验3D立体k歌音效</span>
+                        <span class="fr">立即体验</span></dd>
+                </dl>
+            </section>
+            <section id="s1">
+
+                <div class="d1">
+                    <div class="d1_1 clear">
+                        <dl class="clear fl">
+                            <dt class="fl"><img src="images/index1/psb.jpg" alt=""/></dt>
+                            <dd class="fr">随风荡#</dd>
+                        </dl>
+                        <div class="fr"><span>2月7日</span><img src="images/index3/d3_5.jpg" alt=""/></div>
+                    </div>
+                    <p>我唱了《宁夏》，快来点评一下吧。</p>
+                    <div class="d1_2">
+                        <dl class="clear">
+                            <dt class="fl"><img src="images/index3/d3_6.jpg" alt=""/></dt>
+                            <dd>宁夏 <img src="images/index3/d3_7.jpg" alt=""/></dd>
+                            <dd>536人听过</dd>
+                        </dl>
+                        <p><img src="images/index3/d3_8.jpg" alt=""/></p>
+                        <ul class="clear">
+                            <li><img src="images/index3/d3_9.jpg" alt=""/></li>
+                            <li><img src="images/index3/d3_10.jpg" alt=""/></li>
+                            <li><img src="images/index3/d3_11.jpg" alt=""/></li>
+                            <li><img src="images/index3/d3_12.jpg" alt=""/></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="d1">
+                    <div class="d1_1 clear">
+                        <dl class="clear fl">
+                            <dt class="fl"><img src="images/index1/psb.jpg" alt=""/></dt>
+                            <dd class="fr">随风荡#</dd>
+                        </dl>
+                        <div class="fr"><span>2月1日</span><img src="images/index3/d3_5.jpg" alt=""/></div>
+                    </div>
+                    <p>我唱了《再见》，快来点评一下吧。</p>
+                    <div class="d1_2">
+                        <dl class="clear">
+                            <dt class="fl"><img src="images/index3/s2_3.jpg" alt=""/></dt>
+                            <dd>再见 <img src="images/index3/d3_7.jpg" alt=""/></dd>
+                            <dd>586人听过</dd>
+                        </dl>
+                        <p><img src="images/index3/d3_8.jpg" alt=""/></p>
+                        <ul class="clear">
+                            <li><img src="images/index3/d3_9.jpg" alt=""/></li>
+                            <li><img src="images/index3/d3_10.jpg" alt=""/></li>
+                            <li><img src="images/index3/d3_11.jpg" alt=""/></li>
+                            <li><img src="images/index3/d3_12.jpg" alt=""/></li>
+                        </ul>
+                    </div>
+                </div>
+                <dl class="dl">
+                    <dt>酷狗唱唱</dt>
+                    <dd><img src="images/index3/d3_14.jpg" alt=""/></dd>
+                    <dd class="clear"><span class="fl">立即体验3D立体k歌音效</span>
+                        <span class="fr">立即体验</span></dd>
+                </dl>
+            </section>
+        </article>
+    </main>
+
+    <!--正文 end-->
+
+    <!--侧边菜单 start-->
+    <nav id="menu">
+        <ul>
+            <li class="Selected clear"><a href="#">
+                <div class="fl"><img src="images/index1/psb.jpg" alt=""/></div>
+                <dl class="fl">
+                    <dt>随风荡# <img src="images/index1/header_3_1.png" alt=""/></dt>
+                    <dd>lv.6</dd>
+                </dl>
+
+            </a></li>
+            <li><a href="#"><span></span>消息中心 <span>1</span></a></li>
+            <li><a href="#"><span></span>皮肤中心 <span>魔道祖师 <img src="images/index1/psb.jpg" alt=""/></span></a></li>
+            <li><a href="#"><span></span>会员中心</a></li>
+            <li><a href="#"><span></span>流量包月 <span>听歌免流量</span></a></li>
+            <li><a href="#"><span></span>定时关闭</a></li>
+            <li><a href="#"><span></span>蝰蛇音效</a></li>
+            <li><a href="#"><span></span>音乐工具</a></li>
+            <li><a href="#"><span></span>铃声彩铃</a></li>
+            <li><a href="#"><span></span>私人云盘</a></li>
+            <li><a href="#"><span></span>仅wifi联网 <span><span></span></span></a></li>
+            <li><a href="#"><span></span>桌面歌词 <span><span></span></span></a></li>
+            <li><a href="#"><span></span>锁屏歌词 <span><span></span></span></a></li>
+            <li><a href="#" class="fl"><img src="images/index1/c_1.png" alt=""/>设置</a>
+                <a href="#" class="fr"><img src="images/index1/c_2.png" alt=""/>退出</a></li>
+        </ul>
+    </nav>
+    <!--侧边菜单 end-->
+
+</div>
+</body>
+</html>

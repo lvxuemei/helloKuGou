@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+    <title>hello酷狗！</title>
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="js/lrtk.js"></script>
+    <script src="js/jquery.mmenu.min.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            $('nav#menu').mmenu();
+        });
+        function AutoScroll(obj) {
+            $(obj).find("ul:first").animate({
+                        marginTop: "-30px"
+                    },
+                    500,
+                    function() {
+                        $(this).css({
+                            marginTop: "0px"
+                        }).find("li:first").appendTo(this);
+                    });
+        }
+        $(document).ready(function() {
+            setInterval('AutoScroll("#s41")', 2500)
+        });
+        $(function() {
+            $('#audio').css("background","#fff");
+        });
+    </script>
+    <link href="css/style_n.css" rel="stylesheet" type="text/css">
+    <link href="css/mmenu.css" rel="stylesheet" type="text/css">
+    <link href="css/font-face.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="style/style1.css"/>
+    <link rel="stylesheet" href="style/reset.css"/>
+</head>
+<body>
+
+
+
+<div id="page">
+    <!--头部 start-->
+    <header>
+     <!--   <div class="l_tbn"><a href="#menu" ></a></div>-->
+        <ul>
+            <li><a href="#menu"><img src="images/index1/header_1.jpg" alt=""/></a></li>
+            <li><a href="#">听</a></li>
+            <li><a href="index2.html">看</a></li>
+            <li><a href="index3.html">唱</a></li>
+            <li><a href="#"><img src="images/index1/header_2.jpg" alt=""/></a></li>
+        </ul>
+
+    </header>
+
+    <!--头部 end-->
+
+    <!--正文 start-->
+  <main>
+      <article id="a1">
+          <section id="s1" class="clear">
+              <div class="fl"><img src="images/index1/psb.jpg" alt=""/></div>
+              <dl class="fl">
+                  <dt>随风荡# <img src="images/index1/header_3.jpg" alt=""/></dt>
+                  <dd><span>lv.6</span>听歌20868分钟</dd>
+              </dl>
+              <div class="fr clear"><a href="#"><img src="images/index1/header_4.jpg" alt=""/></a>
+                  <a href="#"><img src="images/index1/header_5.jpg" alt=""/></a></div>
+          </section>
+          <section id="s2">
+              <ul class="clear">
+                  <li><a href="index_1.html">
+                      <dl>
+                          <dt><img src="images/index1/main_1.jpg" alt=""/></dt>
+                          <dd class="s2_1">本地音乐</dd>
+                          <dd class="s2_2">6</dd>
+                      </dl>
+                  </a></li>
+                  <li><a href="index_2.html">
+                      <dl>
+                          <dt><img src="images/index1/main_2.jpg" alt=""/></dt>
+                          <dd class="s2_1">喜欢·歌单</dd>
+                          <dd class="s2_2">5</dd>
+                      </dl>
+                  </a></li>
+                  <li><a href="#">
+                      <dl>
+                          <dt><img src="images/index1/main_3.jpg" alt=""/></dt>
+                          <dd class="s2_1">下载</dd>
+                          <dd class="s2_2">0</dd>
+                      </dl>
+                  </a></li>
+                  <li><a href="#">
+                      <dl>
+                          <dt><img src="images/index1/main_4.jpg" alt=""/></dt>
+                          <dd class="s2_1">最近</dd>
+                          <dd class="s2_2">0</dd>
+                      </dl>
+                  </a></li>
+              </ul>
+          </section>
+          <hr/>
+          <section id="s3">
+              <ul class="clear">
+                  <li><a href="index_3.html">
+                      <dl>
+                          <dt><img src="images/index1/main_5.jpg" alt=""/></dt>
+                          <dd class="s2_1">乐库</dd>
+                      </dl>
+                  </a></li>
+                  <li><a href="index_4.html">
+                      <dl>
+                          <dt><img src="images/index1/main_6.jpg" alt=""/></dt>
+                          <dd class="s2_1">歌单</dd>
+                      </dl>
+                  </a></li>
+                  <li><a href="index_5.html">
+                      <dl>
+                          <dt><img src="images/index1/main_7.jpg" alt=""/></dt>
+                          <dd class="s2_1">电台·酷群</dd>
+                      </dl>
+                  </a></li>
+                  <li><a href="index_3.html">
+                      <dl>
+                          <dt><img src="images/index1/main_8.jpg" alt=""/></dt>
+                          <dd class="s2_1">猜你喜欢</dd>
+                      </dl>
+                  </a></li>
+                  <li><a href="index_4.html">
+                      <dl>
+                          <dt><img src="images/index1/main_9.jpg" alt=""/></dt>
+                          <dd class="s2_1">每日推荐</dd>
+                      </dl>
+                  </a></li>
+                  <li><a href="index_5.html">
+                      <dl>
+                          <dt><img src="images/index1/main_10.jpg" alt=""/></dt>
+                          <dd class="s2_1">音乐圈</dd>
+                      </dl>
+                  </a></li>
+              </ul>
+          </section>
+          <section id="s4">
+              <div id="s41">
+              <div><img src="images/index1/s4.jpg" alt=""/>推广：</div>
+              <ul>
+                  <li><a href="#" target="_blank">续航10小时新歌随时听-酷狗M1耳机</a></li>
+                  <li><a href="#" target="_blank">拒绝孤单！女神陪你连麦聊天</a></li>
+                  <li><a href="#" target="_blank">学生专项福利 酷狗豪华VIP五折</a></li>
+                  <li><a href="#" target="_blank">视频交友神器，等你来撩！</a></li>
+                  <li><a href="#" target="_blank">（震惊）装了这个APP，再也不用去KTV</a></li>
+              </ul>
+              </div>
+          </section>
+
+      </article>
+      <article id="a2"></article>
+      <article id="a3"></article>
+  </main>
+
+    <!--正文 end-->
+
+    <!--侧边菜单 start-->
+    <nav id="menu">
+        <ul>
+            <li class="Selected clear"><a href="#">
+                <div class="fl"><img src="images/index1/psb.jpg" alt=""/></div>
+                <dl class="fl">
+                    <dt>随风荡# <img src="images/index1/header_3_1.png" alt=""/></dt>
+                    <dd>lv.6</dd>
+                </dl>
+
+            </a></li>
+            <li><a href="#"><span></span>消息中心 <span>1</span></a></li>
+            <li><a href="#"><span></span>皮肤中心 <span>魔道祖师 <img src="images/index1/psb.jpg" alt=""/></span></a></li>
+            <li><a href="#"><span></span>会员中心</a></li>
+            <li><a href="#"><span></span>流量包月 <span>听歌免流量</span></a></li>
+            <li><a href="#"><span></span>定时关闭</a></li>
+            <li><a href="#"><span></span>蝰蛇音效</a></li>
+            <li><a href="#"><span></span>音乐工具</a></li>
+            <li><a href="#"><span></span>铃声彩铃</a></li>
+            <li><a href="#"><span></span>私人云盘</a></li>
+            <li><a href="#"><span></span>仅wifi联网 <span><span></span></span></a></li>
+            <li><a href="#"><span></span>桌面歌词 <span><span></span></span></a></li>
+            <li><a href="#"><span></span>锁屏歌词 <span><span></span></span></a></li>
+            <li><a href="#" class="fl"><img src="images/index1/c_1.png" alt=""/>设置</a>
+                <a href="#" class="fr"><img src="images/index1/c_2.png" alt=""/>退出</a></li>
+        </ul>
+    </nav>
+    <!--侧边菜单 end-->
+
+</div>
+<!--<footer id="footer">
+        <audio src="audio/Russ%20-%20Psycho%20(Pt.%202).mp3" controls="controls" loop id="audio"></audio>
+</footer>-->
+
+</body>
+</html>
